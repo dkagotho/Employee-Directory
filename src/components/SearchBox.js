@@ -7,9 +7,9 @@ function SearchBox({ handleSearchChange }) {
       <form className="form-inline">
         <input
           className="form-control mr-sm-2"
-          type="Name"
-          placeholder="Name"
-          aria-label="Name"
+          type="Name/Email address"
+          placeholder="Name/Email address"
+          aria-label="Name/Email address"
           onChange={e => handleSearchChange(e)}
         />
         <button className="btn my-2 my-sm-0" type="submit">
