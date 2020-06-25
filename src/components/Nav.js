@@ -24,7 +24,6 @@ function Nav({ handleSearchChange }) {
             </span>
           </div>
           <input type="date" className="form-control" />
-          <input type="date" className="form-control" />
         </div>
         <div className="search-area col-4">
           <SearchBox handleSearchChange={handleSearchChange} />
